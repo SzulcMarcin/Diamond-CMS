@@ -94,7 +94,7 @@ body {
     border: 1px solid #ddd;
     border-radius: 15px;
 }
-
+.users-list li:hover,
 .menu a:hover,
 .featured-post:hover {
     background-image: linear-gradient(160deg, rgba(0, 110, 255, .25) 0%, rgba(9, 255, 0, 0.25) 100%);
@@ -271,4 +271,38 @@ body {
 
 .post-modal .modal-body .btn {
     text-transform: uppercase;
+}
+
+/* ----------- */
+
+.users-list li {
+    padding: .5em 1em;
+    margin: .2em 0;
+    font-size: 2rem;
+}
+
+.users-list .btn {
+    font-size: 1.6rem;
+}
+
+.users-list .list-group-item {
+    border: 1px solid #fff;
+}
+
+
+.users-search label, .users-search input, .users-search select {
+    font-size: 1.6rem;
+}
+
+
+.modal-content h3.card-title {
+    font-size: 2.6rem;
+}
+
+.modal-content label,
+.modal-content newsletter,
+.modal-content select,
+.modal-content input,
+.modal-footer .btn {
+    font-size: 1.6rem;
 }
