@@ -1,3 +1,11 @@
+$(document).ready(function(){
+  $('.post-carousel').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    speed: 1000
+  });
+});
 
         var options = {
             series: [{
@@ -34,3 +42,5 @@
   
           var chart = new ApexCharts(document.querySelector("#chart"), options);
           chart.render();
+// slick.js
+          
