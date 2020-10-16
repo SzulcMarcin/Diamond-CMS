@@ -260,3 +260,15 @@ body {
 .find-post, .find-post input, find-post .btn, find-post .dropdown-item {
     font-size: 1.6rem;
 }
+
+.post-modal h3 {
+    font-size: 1.7rem;
+}
+
+.post-modal p, .post-modal .btn {
+    font-size: 1.3rem;
+}
+
+.post-modal .modal-body .btn {
+    text-transform: uppercase;
+}
