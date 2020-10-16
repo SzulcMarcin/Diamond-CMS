@@ -235,3 +235,28 @@ body {
     font-size: 1.6rem;
 }
 
+.users-box {
+    max-width: 300px;
+}
+
+.active-users .card-img {
+    overflow: hidden;
+}
+
+.active-users img {
+    height: 180px;
+    object-fit: cover;
+    opacity: .6;
+    transition: opacity .3s, transform .3s;
+}
+.active-users img:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.active-users .card-body, .active-users .btn {
+    font-size: 1.5rem;
+}
+.find-post, .find-post input, find-post .btn, find-post .dropdown-item {
+    font-size: 1.6rem;
+}
